@@ -30,6 +30,32 @@
     {
       "request": {
         "method": "GET",
+        "urlPath": "/limits-service/api/v1/limits/1"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "remaining-limit1.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPath": "/limits-service/api/v1/limits/2"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "remaining-limit2.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
         "queryParameters":{
           "id": {
             "equalTo": "1"
